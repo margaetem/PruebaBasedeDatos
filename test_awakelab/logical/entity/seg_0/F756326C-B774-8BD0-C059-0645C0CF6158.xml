@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F756326C-B774-8BD0-C059-0645C0CF6158" name="Alternativa">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:46:35 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_alternativa" id="D6B8E634-474B-06AB-F1DC-5EEDC8CBB308">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:46:41 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="D9C6F77A-934F-1524-FDC9-206F45B68406">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:47:01 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="respuesta_correcta" id="841BF0CB-DEBE-8417-3BCA-EF5A92775901">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:47:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[0=si
+1=no]]></commentInRDBMS>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcentaje_pregunta" id="2F7BE5E5-C950-B581-3D80-E926224D0C74">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:48:44 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pregunta" id="7BC39A25-22DF-9DAA-C046-A15E956ADDA6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:01:53 UTC</createdTime>
+<generatorID>9BFFBD41-595A-C336-6DFC-8A6B1434DB89</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<referedAttribute>97AF195C-9BB3-D3E3-D99C-A41AB8FADF8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A40C6780-F004-4977-4636-889EBB0A6278" name="Alternativa PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:47:00 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6B8E634-474B-06AB-F1DC-5EEDC8CBB308</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

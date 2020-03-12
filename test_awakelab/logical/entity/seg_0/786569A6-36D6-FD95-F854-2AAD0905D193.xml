@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="786569A6-36D6-FD95-F854-2AAD0905D193" name="Pregunta">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:44:47 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pregunta" id="97AF195C-9BB3-D3E3-D99C-A41AB8FADF8F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:45:01 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enunciado" id="F7C46ABD-89D2-8560-81E0-AE86A04FFE2A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:45:18 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje_total" id="6B13B050-032D-F5F1-B310-E57816EA5121">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:45:36 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_test" id="E8A226A6-825C-043D-ADFA-A272FBC80454">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:00:20 UTC</createdTime>
+<generatorID>E8A5823E-5EB3-52D2-F035-6145FB449C8A</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<referedAttribute>17AB5318-16EF-E84D-3CEC-265790AA76C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB83C4DA-FAE2-EE75-798E-C7348C069765" name="Pregunta PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:45:17 UTC</createdTime>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<engineerTo>
+<item key="4CC97B6F-6AD8-2724-76FC-4682E924A861" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97AF195C-9BB3-D3E3-D99C-A41AB8FADF8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

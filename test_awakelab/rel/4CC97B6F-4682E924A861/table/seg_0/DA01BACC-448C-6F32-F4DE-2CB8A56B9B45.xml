@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA01BACC-448C-6F32-F4DE-2CB8A56B9B45" name="Pregunta">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:34:23 UTC</createdTime>
+<generatorID>786569A6-36D6-FD95-F854-2AAD0905D193</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pregunta" id="F1A4B82A-594C-AAA2-294C-C6CACAC92644">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:34:23 UTC</createdTime>
+<generatorID>97AF195C-9BB3-D3E3-D99C-A41AB8FADF8F</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="532D5F30-5C43-9CCE-ADDE-1C6BD4B697F9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:34:23 UTC</createdTime>
+<generatorID>F7C46ABD-89D2-8560-81E0-AE86A04FFE2A</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje_total" id="F6DD9A41-455A-7F01-D58E-04C86BC8F518">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:34:23 UTC</createdTime>
+<generatorID>6B13B050-032D-F5F1-B310-E57816EA5121</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Test_id_test" id="1D98F37B-C283-6749-3B57-FEE476B9C72F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:34:23 UTC</createdTime>
+<generatorID>E8A226A6-825C-043D-ADFA-A272FBC80454</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="036EEE17-EB4C-8354-639C-8B77D2054B79" referredColumn="56C51D8B-BDF5-9468-2F45-528A9AE6DD17"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6F5A6A5-27BC-8A63-870F-9FDD44374985" name="Pregunta_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:34:23 UTC</createdTime>
+<generatorID>EB83C4DA-FAE2-EE75-798E-C7348C069765</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1A4B82A-594C-AAA2-294C-C6CACAC92644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08CEF5ED-84D5-4C74-BE02-916B3AF0E9D8" name="Pregunta_Test_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 18:34:23 UTC</createdTime>
+<generatorID>E8A5823E-5EB3-52D2-F035-6145FB449C8A</generatorID>
+<ownerDesignName>test_awakelab</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D98F37B-C283-6749-3B57-FEE476B9C72F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
