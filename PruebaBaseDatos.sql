@@ -83,3 +83,60 @@ values (4, 'Programacion Android', 0028);
 
 insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
 values (1, 'Maria Trinidad', 'Gaete Mella', '18.955.244-0', 'trinidad.gaete@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (2, 'Perico', 'Palotes', '18.888.222-0', 'a@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (3, 'Mari', 'Seca', '17.486.502-0', 'b@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (4, 'Rosa', 'Rojas', '15.855.142-k', 'c@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (5, 'Dolores', 'Amigo', '13.783.654-1', 'd@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (6, 'Matilda', 'Caballo', '18.488.104-2', 'e@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (7, 'Federico', 'Comparini', '19.034.761-0', 'f@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (8, 'Margo', 'Simpson', '17.563.815-2', 'f@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (9, 'Sebastian', 'Troncoso', '16.023.911-4', 'g@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (10, 'Julio', 'Naranjo', '19.436.715-k', 'h@gmail.com', 2);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (11, 'Corfilio', 'Mamani', '16.436.715-9','111@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (12, 'Daniel', 'Silva', '17.786.381-0','112@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (13, 'Elena', 'Falabella', '18.354.428-k','113@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (14, 'Carmen', 'Cifuentes', '17.543.257-8','114@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (15, 'Sofia', 'Retamal', '17.443.277-2','115@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (16, 'Claudio', 'Aguirre', '16.987.231-7','116@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (17, 'Rosario', 'Dominguez', '18.327.839-1','117@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (18, 'Claudio', 'Aguirre', '15.989.651-0','118@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (19, 'Teresa', 'Edison', '16.383.683-2','119@gmail.com', 3);
+
+insert into estudiante (id_estudiante, nombre, apellido, rut, email, curso_id_curso)
+values (20, 'Flor', 'Vargas', '18.237.841-8','120@gmail.com', 3);
